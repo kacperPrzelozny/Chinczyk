@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+* {
+    color: white;
+    font-family: 'Rubik Mono One',
+    sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+#start {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    display: flex;
+}
+
+#nick {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    font-size: 40px;
+}
+
+#button {
+    margin-left: 5px;
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.playerBox {
+    width: 25%;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#panel {
+    width: 200px;
+    height: 440px;
+    position: absolute;
+    top: 0px;
+    left: 440px;
+}
+#dice{
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    /* background-image: url("http://przelozny.ct8.pl/chinczyk/img/kostka.png"); */
+    background-color: gray;
+}
+#time{
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+    margin-top: 80px;
+    background-color: gray;
+    border-radius: 20px;
+    font-size: 120px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+
+}
+#throw{
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: gray;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    cursor:pointer;
+    display: none;
+}
+.proposition{
+    position: absolute;
+    border-radius: 10px;
+    background-color: gray;
+    border: 1px solid black;
+    z-index: 2;
+}
